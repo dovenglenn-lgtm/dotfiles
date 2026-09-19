@@ -8,9 +8,10 @@
 	- fastfetch
 	- nvim
 	- cava (music visualizer)
+	- htop
 
 ## future configs to be tracked
-	- htop
+	- none
 
 ## untracked configs
 	- serpantinum (revealed machine ip, and personal info)
