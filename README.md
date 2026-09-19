@@ -2,16 +2,14 @@
 	Downloads the configs currently tracked. Scroll down for the configs that are currently tracked.
 	Run `curl -fsSL https://raw.githubusercontent.com/dovenglenn-lgtm/dotfiles/main/restore.sh | bash` to get the dotfiles currently tracked.
 
-
 ## configs currently tracked
 	- hypr (hyprland)
 	- kitty (terminal)
 	- fastfetch
 	- nvim
-	- cava
-
-## future configs to be tracked
+	- cava (music visualizer)
 	- serpantinum (shell)
+## future configs to be tracked
 	- htop
 
 ## Note to everyone

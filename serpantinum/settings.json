@@ -1,0 +1,193 @@
+{
+  "general": {
+    "language": "en",
+    "avatarPath": "",
+    "muteSfx": false,
+    "weatherInterval": 15,
+    "weatherUnit": "metric",
+    "location": {
+      "ip": "103.129.124.187",
+      "latitude": 14.4825,
+      "longitude": 120.91694,
+      "city": "Cavite City",
+      "region": "Calabarzon",
+      "region_code": "40",
+      "country_name": "Philippines",
+      "country_code": "PH",
+      "postal": "4100",
+      "timezone": "Asia/Manila",
+      "utc_offset": "+0800",
+      "currency": "PHP",
+      "languages": "tl,en-PH,fil,ceb,ilo,hil,war,pam,bik,bcl,pag,mrw,tsg,mdh,cbk,krj,sgd,msb,akl,ibg,yka,mta,abx",
+      "asn": "AS151066",
+      "org": "Imperial network inc",
+      "source": "ipapi.co",
+      "updated_at": 1789550003
+    }
+  },
+  "syspanel": {
+    "clipExpandProgress": 0,
+    "clipExpanded": false,
+    "clipState": 1
+  },
+  "bar": {
+    "position": "top",
+    "width": 100,
+    "opacity": 100,
+    "style": "fill",
+    "time": {
+      "format": "HH:mm:ss"
+    },
+    "autohide": false,
+    "autohideTimeout": 1000,
+    "modules": {
+      "left": [
+        "left",
+        "media",
+        "workspaces"
+      ],
+      "center": [
+        "timedate",
+        "vis",
+        "info",
+        "weather"
+      ],
+      "right": [
+        "tray",
+        [
+          "kb",
+          "wifi",
+          "bt",
+          "vol",
+          "bat"
+        ]
+      ]
+    },
+    "groupColors": {
+      "g_kb": "#b4c5ff"
+    },
+    "distinctPills": false
+  },
+  "theme": {
+    "fontFamily": "Adwaita Mono",
+    "borderRadius": 10,
+    "activePreset": "Matugen",
+    "matugen": true
+  },
+  "idle": {
+    "enabled": true,
+    "actions": {
+      "dim": {
+        "id": "dim",
+        "timeout": 150,
+        "enabled": true,
+        "respectInhibitors": true,
+        "mprisInhibit": false,
+        "command": "",
+        "resumeCommand": "",
+        "isCustom": false
+      },
+      "dpms": {
+        "id": "dpms",
+        "timeout": 450,
+        "enabled": true,
+        "respectInhibitors": true,
+        "mprisInhibit": false,
+        "command": "",
+        "resumeCommand": "",
+        "isCustom": false
+      },
+      "lock": {
+        "id": "lock",
+        "timeout": 300,
+        "enabled": true,
+        "respectInhibitors": true,
+        "mprisInhibit": false,
+        "command": "",
+        "resumeCommand": "",
+        "isCustom": false
+      },
+      "suspend": {
+        "id": "suspend",
+        "timeout": 600,
+        "enabled": true,
+        "respectInhibitors": true,
+        "mprisInhibit": false,
+        "command": "",
+        "resumeCommand": "",
+        "isCustom": false
+      }
+    },
+    "manualInhibit": true
+  },
+  "notifications": {
+    "dnd": true,
+    "position": "top right",
+    "sound": true,
+    "soundFile": "/home/glenn/.local/share/serpantinum/src/assets/sounds/notifications/Botanica.wav"
+  },
+  "display": {
+    "monitors": {
+      "eDP-1": {
+        "enabled": false,
+        "scale": 1
+      },
+      "VGA-1": {
+        "enabled": false,
+        "scale": 1
+      }
+    }
+  },
+  "wallpaperDir": "/home/glenn/Pictures/Wallpapers",
+  "dock": {
+    "enabled": true,
+    "position": "bottom",
+    "onTop": true,
+    "elementSize": 44,
+    "floating": false,
+    "opacity": 100,
+    "exclusive": false,
+    "autohide": true,
+    "autohideTimeout": 1000,
+    "editing": false,
+    "apps": [
+      {
+        "name": "kitty",
+        "comment": "Fast, feature-rich, GPU based terminal",
+        "desktop_id": "kitty",
+        "icon": "kitty"
+      },
+      {
+        "name": "Sober",
+        "comment": "Play, chat & explore on Roblox",
+        "desktop_id": "org.vinegarhq.Sober",
+        "icon": "org.vinegarhq.Sober"
+      },
+      {
+        "name": "Firefox",
+        "comment": "Fast and private browser",
+        "desktop_id": "firefox",
+        "icon": "firefox"
+      },
+      {
+        "name": "Files",
+        "comment": "Access and organize files",
+        "desktop_id": "org.gnome.Nautilus",
+        "icon": "org.gnome.Nautilus"
+      },
+      {
+        "name": "VLC media player",
+        "comment": "Read, capture, broadcast your multimedia streams",
+        "desktop_id": "vlc",
+        "icon": "vlc"
+      }
+    ],
+    "overrideBoundsCorrection": false,
+    "enableScrolling": false,
+    "visibleElements": 7,
+    "hoverScale": 120,
+    "cascadeScale": false,
+    "smartAutohide": false
+  }
+}
+
