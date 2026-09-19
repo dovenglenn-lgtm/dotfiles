@@ -3,7 +3,7 @@
 
 set -e
 
-REPO="git@github.com:dovenglenn-lgtm/dotfiles.git"
+REPO="https://github.com/dovenglenn-lgtm/dotfiles.git"
 DOTFILES="$HOME/dotfiles"
 
 # Clone if not already present
