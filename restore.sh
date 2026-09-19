@@ -12,9 +12,11 @@ if [ ! -d "$DOTFILES" ]; then
 fi
 
 # Symlink each config
-for dir in hypr kitty fastfetch nvim; do
-    target="$HOME/.config/$dir"
-    source="$DOTFILES/$dir"
+for dir in "$DOTFILES"/*/; do
+    name=$(basename "$dir")
+    [ "$name" = ".git" ] && continue
+    target="$HOME/.config/$name"
+    source="$DOTFILES/$name"
 
     # Back up existing config if it exists
     if [ -e "$target" ] && [ ! -L "$target" ]; then
