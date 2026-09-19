@@ -8,9 +8,9 @@
 	- kitty (terminal)
 	- fastfetch
 	- nvim
+	- cava
 
 ## future configs to be tracked
-	- cava (music visualizer)
 	- serpantinum (shell)
 	- htop
 
