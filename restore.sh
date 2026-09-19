@@ -11,6 +11,11 @@ if [ ! -d "$DOTFILES" ]; then
     git clone "$REPO" "$DOTFILES"
 fi
 
+if [ -f "$DOTFILES/packages.txt" ]; then
+    echo "installing packages from packages.txt"
+    sudo pacman -S --needed - < "$DOTFILES/packages.txt"
+fi
+
 # Symlink each config
 for dir in "$DOTFILES"/*/; do
     name=$(basename "$dir")
