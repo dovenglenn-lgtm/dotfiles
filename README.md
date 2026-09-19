@@ -8,10 +8,12 @@
 	- fastfetch
 	- nvim
 	- cava (music visualizer)
-	- serpantinum (shell)
+
 ## future configs to be tracked
 	- htop
 
+## untracked configs
+	- serpantinum (revealed machine ip, and personal info)
 ## Note to everyone
 	Always read the code first. It might not work on you. I recommend atleast reading the config files or asking an AI to summarize it for you and if it works on your machine or not.
 
