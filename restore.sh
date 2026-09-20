@@ -32,5 +32,5 @@ for dir in "$DOTFILES"/*/; do
     ln -sfn "$source" "$target"
     echo "Linked $target -> $source"
 done
-
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/ilyamiro/serpantinum/master/install/install.sh)"
 echo "Done. Configs restored."
