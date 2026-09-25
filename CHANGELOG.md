@@ -4,3 +4,5 @@
 1.0.1
 	- Thinner cava bars
 	- Switch to alacritty from kitty
+1.0.2
+	- Smaller alacritty font
