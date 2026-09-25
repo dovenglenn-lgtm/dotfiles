@@ -4,7 +4,7 @@
 import = ["~/.config/alacritty/colors.toml"]
 
 [font]
-size = 14.0
+size = 12.0
 normal = { family = "JetBrains Mono", style = "Regular" }
 bold = { family = "JetBrains Mono", style = "Bold" }
 italic = { family = "JetBrains Mono", style = "Italic" }
