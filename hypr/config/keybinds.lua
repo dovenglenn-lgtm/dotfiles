@@ -14,7 +14,7 @@ hl.bind(mainMod .. " + CTRL + Left", hl.dsp.window.move({ direction = "l" }))
 hl.bind(mainMod .. " + CTRL + Right", hl.dsp.window.move({ direction = "r" }))
 hl.bind(mainMod .. " + CTRL + Up", hl.dsp.window.move({ direction = "u" }))
 hl.bind(mainMod .. " + CTRL + Down", hl.dsp.window.move({ direction = "d" }))
-
+hl.bind(mainMod .. " + CTRL + SHIFT + S", hl.dsp.exec_cmd("flatpak run org.vinegarhq.Sober"))
 hl.bind(mainMod .. " + Left", hl.dsp.focus({ direction = "left" }))
 hl.bind(mainMod .. " + Right", hl.dsp.focus({ direction = "right" }))
 hl.bind(mainMod .. " + Up", hl.dsp.focus({ direction = "up" }))
@@ -46,7 +46,7 @@ hl.bind("XF86AudioRaiseVolume", hl.dsp.exec_cmd("serpantinum volume raise"), { r
 
 hl.bind(mainMod .. " + SHIFT + F", hl.dsp.exec_cmd("firefox"))
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd("nautilus"))
-hl.bind(mainMod .. " + RETURN", hl.dsp.exec_cmd(terminal))
+hl.bind(mainMod .. " + RETURN", hl.dsp.exec_cmd("alacritty"))
 
 hl.bind(mainMod .. " + R", hl.dsp.exec_cmd("serpantinum reload"))
 hl.bind(mainMod .. " + C", hl.dsp.exec_cmd("serpantinum msg toggle clipboard"))
