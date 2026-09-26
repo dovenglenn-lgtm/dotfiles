@@ -1,7 +1,7 @@
 [general]
 framerate = 60
 bars = 0
-bar_width = 2
+bar_width = 3
 bar_spacing = 1
 sensitivity = 75
 autosens = 1
@@ -21,11 +21,11 @@ noise_reduction = 77
 5 = 1.5
 
 [color]
-background = '#1f1f25'
-foreground = '#bec2ff'
+background = '#271d1c'
+foreground = '#ffb4aa'
 
 gradient = 1
 gradient_count = 3
-gradient_color_1 = '#bec2ff'
-gradient_color_2 = '#3d4279'
-gradient_color_3 = '#555a92'
+gradient_color_1 = '#ffb4aa'
+gradient_color_2 = '#73342d'
+gradient_color_3 = '#904a43'
