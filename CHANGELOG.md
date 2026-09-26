@@ -8,3 +8,5 @@
 	- Smaller alacritty font
 1.0.3
 	- Changed workspace animation from slide to fade
+1.0.4
+	- Slower workspace speed
