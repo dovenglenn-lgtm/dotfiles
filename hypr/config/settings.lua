@@ -53,6 +53,6 @@ hl.animation({ leaf = "layers", enabled = true, speed = 5, bezier = "myBezier", 
 hl.animation({ leaf = "layersIn", enabled = true, speed = 5, bezier = "myBezier", style = "fade" })
 hl.animation({ leaf = "layersOut", enabled = true, speed = 5, bezier = "myBezier", style = "fade" })
 hl.animation({ leaf = "fade", enabled = true, speed = 5, bezier = "myBezier" })
-hl.animation({ leaf = "workspaces", enabled = true, speed = 5, bezier = "myBezier", style = "fade" })
+hl.animation({ leaf = "workspaces", enabled = true, speed = 3, bezier = "myBezier", style = "fade" })
 hl.animation({ leaf = "specialWorkspaceIn", enabled = true, speed = 5, bezier = "myBezier", style = "fade" })
 hl.animation({ leaf = "specialWorkspaceOut", enabled = true, speed = 5, bezier = "myBezier", style = "fade" })
